@@ -1,0 +1,3 @@
+/home/u/Desktop/webserver/httpclient/src/CMakeFiles/rebuild_cache.dir
+/home/u/Desktop/webserver/httpclient/src/CMakeFiles/edit_cache.dir
+/home/u/Desktop/webserver/httpclient/src/CMakeFiles/http_client.dir

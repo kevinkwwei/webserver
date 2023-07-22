@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/u/Desktop/webserver/httpclient/src/main.cpp
+iostream
+-
+/home/u/httpclient/src/httpclient.h
+-
+
+/home/u/httpclient/src/httpclient.h
+vector
+-
+string
+-
+memory
+-
+iostream
+-
+stdio.h
+-
+stdint.h
+-
+
