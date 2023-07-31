@@ -1,1 +1,0 @@
-/usr/bin/c++   -std=c++0x  -rdynamic CMakeFiles/http_client.dir/main.cpp.o  -o http_client   -L/home/u/Desktop/webserver/httpclient/src 
