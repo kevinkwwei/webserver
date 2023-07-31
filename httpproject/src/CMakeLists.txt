@@ -9,6 +9,6 @@ include_directories(${PROJECT_SOURCE_DIR})
 
 link_directories(${PROJECT_SOURCE_DIR})
 
-add_executable(${PROJECT_NAME} main.cpp )
+add_executable(${PROJECT_NAME} main.cpp http_server.cpp http_server.h http_client.cpp http_client.h)
 
 target_link_libraries(${PROJECT_NAME})
