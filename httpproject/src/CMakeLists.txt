@@ -9,6 +9,6 @@ include_directories(${PROJECT_SOURCE_DIR})
 
 link_directories(${PROJECT_SOURCE_DIR})
 
-add_executable(${PROJECT_NAME} main.cpp httpserver/http_server.cpp httpserver/http_server.h httpclient/http_client.cpp httpclient/http_client.h)
+add_executable(${PROJECT_NAME} main.cpp httpserver/http_server.cpp httpserver/http_server.h httpclient/http_client.cpp httpclient/http_client.h currency/semaphore.cpp currency/semaphore.h currency/mutex_locker.cpp currency/mutex_locker.h currency/condition_var.cpp currency/condition_var.h)
 
 target_link_libraries(${PROJECT_NAME})
