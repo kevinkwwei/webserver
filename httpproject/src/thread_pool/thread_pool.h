@@ -5,11 +5,14 @@
 
 #include <iostream>
 #include <list>
+#include <cstdio>
+#include <exception>
+#include <pthread.h>
 #include "currency/mutex_locker.h"
 #include "currency/semaphore.h"
 
 template <typename T>
-class ThreadPool : std::enable_shared_from_this<ThreadPool> {
+class ThreadPool {
 public:
     ThreadPool(int actor_model, int thread_count, int max_request_count);
     ~ThreadPool();
