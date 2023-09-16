@@ -15,6 +15,9 @@ public:
 
     bool UnLock();
 
+    pthread_mutex_t *get() {
+        return &mutex_;
+    }
 private:
     pthread_mutex_t mutex_;
 
