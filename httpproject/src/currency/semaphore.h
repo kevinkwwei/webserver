@@ -8,6 +8,8 @@ class Semaphore {
 public:
     Semaphore();
 
+    Semaphore(int num);
+
     ~Semaphore();
 
     bool Wait();

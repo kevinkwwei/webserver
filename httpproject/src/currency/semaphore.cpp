@@ -23,3 +23,9 @@ bool Semaphore::Wait() {
 bool Semaphore::Post() {
     return sem_post(&sem_) == 0;
 }
+
+Semaphore::Semaphore(int num) {
+    if (sem_init(&sem_, 0, num) != 0) {
+        throw  std::exception();
+    }
+}
